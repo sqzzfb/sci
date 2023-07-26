@@ -1,0 +1,39 @@
+  - url: your url
+    yaml:
+      prepend-rules:
+        - DOMAIN-SUFFIX,openai.com,🇸🇬 新加坡A01
+        - DOMAIN-SUFFIX,openai.com,🇯🇵 日本A01 | x0.8
+        - DOMAIN-SUFFIX,openai.com,🇺🇲 美国A01
+        - DOMAIN-SUFFIX,openai.com,🇺🇲 美国A02
+        - DOMAIN-SUFFIX,openai.com,🇬🇧 英国A01
+        - DOMAIN-SUFFIX,openai.com,🇦🇷 阿根廷A01
+        - DOMAIN-SUFFIX,openai.com,🇷🇺 俄罗斯A01
+        - DOMAIN-SUFFIX,openai.com,🇹🇷 土耳其A01
+        - DOMAIN-SUFFIX,openai.com,🇰🇷 韩国A01
+        - DOMAIN-SUFFIX,openai.com,🇮🇳 印度A01
+        - DOMAIN-SUFFIX,openai.com,🇩🇪 德国A01
+        - DOMAIN-SUFFIX,openai.com,🇨🇦 加拿大A01
+        - DOMAIN-SUFFIX,openai.com,🇦🇺 澳大利亚A01
+        - DOMAIN-SUFFIX,openai.com,🇫🇷 法国A01
+        
+        - DOMAIN-SUFFIX,scopus.com,DIRECT
+        - DOMAIN-SUFFIX,webofknowledge.com,DIRECT
+        - DOMAIN-SUFFIX,sciencedirect.com,DIRECT
+        - DOMAIN-SUFFIX,pubs.rsc.org,DIRECT
+        - DOMAIN-SUFFIX,wiley.com,DIRECT
+        - DOMAIN-SUFFIX,pubs.acs.org,DIRECT  
+        - DOMAIN-SUFFIX,pnas.org,DIRECT 
+        - DOMAIN-SUFFIX,utszlib.edu.cn,DIRECT
+        - DOMAIN-SUFFIX,metaersp.cn,DIRECT
+        - DOMAIN-SUFFIX,zotero.org,DIRECT
+        - DOMAIN-SUFFIX,microsoft.com,DIRECT
+        - DOMAIN-SUFFIX,bilibili.com,DIRECT
+        - DOMAIN-SUFFIX,taobao.com,DIRECT
+        - DOMAIN-SUFFIX,qq.com,DIRECT
+        - DOMAIN-SUFFIX,cqvip.com,DIRECT
+
+        - DOMAIN-KEYWORD,cnki,DIRECT
+        - DOMAIN-KEYWORD,sci-hub,DIRECT
+        - PROCESS-NAME,Zotero,DIRECT
+        - PROCESS-NAME,QQ,DIRECT
+        - PROCESS-NAME,TIM,DIRECT
